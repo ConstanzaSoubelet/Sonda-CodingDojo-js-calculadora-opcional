@@ -1,0 +1,32 @@
+#calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000;
+}
+
+#equals {
+    width: 290px; /* Puedes ajustar el ancho según tus preferencias */
+}
+
+#display {
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    margin: 5px;
+    
+}
+.operator {
+    background-color: orange;
+    color: white;
+}
